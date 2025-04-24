@@ -444,7 +444,8 @@ spec:
       optional: true
     - name: netrc
       optional: true
-  taskRunTemplate: {}
+  taskRunTemplate:
+    serviceAccountName: build-pipeline-test-component-custom-1
   workspaces:
   - name: git-auth
     secret:
